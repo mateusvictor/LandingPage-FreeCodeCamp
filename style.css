@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@300&display=swap');
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#header {
+	display: flex;
+	position: fixed;
+	top: 0;
+	height: 100px;
+	align-items: center;
+	background-color: white;
+	width: 100%;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+}
+
+#nav-bar {
+	width: 100%;
+}
+
+#header-img {
+	width: 323px;
+	height: 90px;
+}
+
+
+#form-div {
+	display: block;
+	padding: 6px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-align: center;
+	align-items: center;
+}
+
+#video-div {
+	text-align: center;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+#products {
+	width: 1200px;
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	margin-top: 1px;
+}
+
+.div-products {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 30%;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.img-products {
+	height: 200px;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+
+h3 {
+	display: block;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 70px;
+}
+
+footer {
+	display: block;
+	text-align: left;
+	background-color: #ddd;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 1px;
+	width: 100%;
+}
+
+input,
+button {
+	font-family: inherit;
+}
+
+button {
+	width: 200px;
+	font-size: 30px;
+	margin-bottom: 10px;
+	align-items: center;
+}
+
+input {
+	width: 300px;
+	height: 30px;
+	font-size: 20px;
+	padding: 10px;
+}
+
+#submit {
+	padding: 2px;
+	font-size: 15px;
+	height: 40px;
+	width: 200px;
+}
+
+h2 {
+	margin-bottom: 3px;
+}
+
+p {
+	margin: 10px 10px 10px 10px;
+}
